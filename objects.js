@@ -32,5 +32,5 @@ const agents = [
 ]
 
 agents.forEach((agent) => console.log(agent.name));
-agents.forEach((agent) => console.log(agent));
+agents.forEach((agent) => console.log(agent.abilities));
 console.log(agents.filter((agent) => agent.role === "Deulist"));

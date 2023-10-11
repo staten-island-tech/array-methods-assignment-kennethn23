@@ -29,7 +29,7 @@ const agents = [
         role: "Initiator", 
         abilities: ["Frag/Ment", "Flash/Drive", "Zero/Point", "Null/CMD"],
     },
-]
+];
 
 agents.forEach((agent) => console.log(agent.name));
 agents.forEach((agent) => agent.abilities.forEach((ability) => console.log(ability)));
